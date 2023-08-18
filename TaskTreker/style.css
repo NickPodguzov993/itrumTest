@@ -16,6 +16,7 @@ h1 {
 
 .taskList li {
     list-style-type: none;
+    display: flex;
 }
 
 .controlsContainer {
