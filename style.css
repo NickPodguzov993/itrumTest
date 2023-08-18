@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.taskInputContainer {
+    margin-bottom: 10px;
+}
+
+.taskListContainer {
+    margin-bottom: 10px;
+}
+
+.taskList li {
+    list-style-type: none;
+}
+
+.controlsContainer {
+    margin-bottom: 10px;
+}
+
+.deletedTasksContainer {
+    display: none;
+}
+
+.deletedTasksContainer h2 {
+    text-align: center;
+}
+
+.deletedTasksList li {
+    list-style-type: none;
+    color: red;
+    text-decoration: line-through;
+}

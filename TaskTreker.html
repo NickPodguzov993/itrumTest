@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet"  href="style.css">
+</head>
+<body>
+<h1>Таск трекер</h1>
+<div id="taskInputContainer">
+    <input  id="taskInput" placeholder="Введите задачу">
+    <button id="createButton">Создать</button>
+</div>
+<div id="taskListContainer" class="taskListContainer">
+    <ul id="taskList" class="taskList"></ul>
+</div>
+<div id="controlsContainer" class="controlsContainer">
+    <button id="selectAllButton">Выделить все задачи</button>
+    <button id="deleteButton">Корзина</button>
+</div>
+<div id="deletedTasksContainer" class="deletedTasksContainer">
+    <h2>Корзина</h2>
+    <ul id="deletedTasksList" class="deletedTasksList"></ul>
+    <button id="restoreButton">Вернуть задачу из корзины</button>
+</div>
+
+<script src="index.js"></script>
+</body>
+</html>
